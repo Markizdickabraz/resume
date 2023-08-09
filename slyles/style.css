@@ -54,7 +54,25 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
-
+.nav__button {
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1001px) {
+  .nav__button {
+    display: none;
+  }
+}
 .header__logo {
   color: var(--white-color);
   font-size: 44px;
@@ -107,6 +125,21 @@ ul {
 }
 
 .header__link--active {
+  color: var(--ogange-color);
+}
+
+.menu__container.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  color: var(--white-color);
+}
+.menu__container .nav__button {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+
+.menu__container .nav__button:hover {
   color: var(--ogange-color);
 }
 
