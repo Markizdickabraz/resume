@@ -249,6 +249,13 @@ ul {
 
 .footer {
   width: 100%;
+}
+.footer__index {
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+}
+.footer__portfolio {
   padding: 50px 0 50px 0;
 }
 

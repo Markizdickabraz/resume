@@ -223,10 +223,6 @@
     text-align: center;
   }
 
-  .portfolio_text {
-    display: none;
-  }
-
   .portfolio__frame {
     max-width: 300px;
   }
