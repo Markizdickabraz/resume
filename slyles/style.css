@@ -350,3 +350,6 @@ ul {
   width: 360px;
   height: 360px;
 }
+.portfolio__caption {
+  padding: 10px 0 10px 0;
+}
