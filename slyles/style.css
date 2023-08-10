@@ -326,6 +326,23 @@ ul {
   transform: translateY(-10px);
 }
 
+.about__container {
+  max-width: 1300px;
+  padding: 0 50px 0 50px;
+}
+
+.about__title {
+  color: var(--white-color);
+  font-size: 70px;
+  padding: 70px 0 0 0;
+  text-align: center;
+}
+
+.about__text {
+  color: var(--white-color);
+  text-align: center;
+}
+
 .portfolio__container {
   margin: 0 auto;
   max-width: 1300px;
