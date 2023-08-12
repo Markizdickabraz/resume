@@ -152,6 +152,7 @@ ul {
   color: var(--white-color);
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 
 .hero {
@@ -342,6 +343,7 @@ ul {
 }
 
 .about__container {
+  margin: 0 auto;
   max-width: 1300px;
   padding: 0 50px 0 50px;
 }
@@ -357,9 +359,7 @@ ul {
   animation-delay: 0.3s;
 }
 
-.about__text {
-  color: var(--white-color);
-  text-align: center;
+.about__text-container {
   transform: scale(0);
   opacity: 0;
   animation: about-text 1.5s ease-in-out forwards;
@@ -369,6 +369,11 @@ ul {
     transform: scale(1);
     opacity: 1;
   }
+}
+
+.about__text {
+  color: var(--white-color);
+  text-align: center;
 }
 
 .portfolio__container {
