@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/273e14e338.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../slyles/style.css">
+    <link rel="stylesheet" href="../slyles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <title>Resume</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <a class="header__logo" href="./index.html"><span class="header__logo--span">M</span>ark</a>
+            <div class="navigate menu__container js-menu-container" id="mobile-menu">
+                <button type="button" class="nav__button menu-toggle js-close-menu">
+                    x
+                </button>
+                <ul class="header__list">
+                    <li class="header__item"> <a href="./index.html" class="header__link header__link--active">Home</a>
+                    </li>
+                    <li class="header__item"> <a href="./aboutMe.html" class="header__link">About me</a> </li>
+                    <li class="header__item"> <a href="./portfolio.html" class="header__link">Portfolio</a></li>
+                </ul>
+            </div>
+            <label class="lang-change__label" for="lang"></label>
+            <select class="lang-change__select" id="lang" name="lang">
+                <option class="lang-change__option" value="en">en</option>
+                <option class="lang-change__option" value="ua">ua</option>
+            </select>
+            <button type="button" class="nav__button menu-toggle js-open-menu" aria-expanded="false"
+                aria-controls="mobile-menu">
+                <i class="fa-solid fa-bars" style="color: #fafafa;"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <span class="hero__span">Fullstack developer</span>
+                <h1 class="hero__title">Hi. My name is Mark</h1>
+                <p class="hero__text">I would like works with you</p>
+                <div class="hero__nav">
+                    <a class="hero__link" href="mailto:mark.sahaxkiy@gmail.com">Ask a question</a>
+                    <a class="hero__link" href="tel:+380973171530">Call me</a>
+                </div>
+            </div>
+            <div class="hero__img-container">
+                <img class="hero__img" src="../img/Mark.png" alt="photo Mark">
+            </div>
+        </section>
+    </main>
+    <footer class="footer footer__index">
+        <ul class="footer__list">
+            <li class="footer__item"><a href="https://web.telegram.org/k/#@Mark_Sakhatskyi" class="footer__link"><i
+                        class="fa-brands fa-telegram footer__icon"></i></a>
+            </li>
+            <li class="footer__item"> <a href="https://github.com/Markizdickabraz" class="footer__link"><i
+                        class="fa-brands fa-github footer__icon"></i></a></li>
+            <li class="footer__item"><a href="https://www.instagram.com/mark.sahaxkiy/" class="footer__link"><i
+                        class="fa-brands fa-instagram footer__icon"></i></a></li>
+            <li class="footer__item"> <a href="https://www.linkedin.com/in/mark-sakhatskyi/" class="footer__link"><i
+                        class="fa-brands fa-linkedin-in footer__icon"></i></a></li>
+        </ul>
+    </footer>
+    <script src="../js/mobileMenu.js"></script>
+    <script src="../js/changeLang.js"></script>
+</body>
+
+
+</html>

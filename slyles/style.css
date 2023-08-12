@@ -67,6 +67,15 @@ ul {
   border-radius: 50%;
   outline: none;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(100px);
+  animation: nav__button 1s ease-in-out forwards;
+  opacity: 0;
+}
+@keyframes nav__button {
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .header__logo {
@@ -139,6 +148,12 @@ ul {
   color: var(--ogange-color);
 }
 
+.lang-change__select {
+  color: var(--white-color);
+  background-color: transparent;
+  border: none;
+}
+
 .hero {
   max-width: 1300px;
   min-height: 100vh;
@@ -171,7 +186,7 @@ ul {
 
 .hero__title {
   color: var(--white-color);
-  font-size: 110px;
+  font-size: 90px;
   padding: 20px 0;
   transform: translateX(-400px);
   opacity: 0;
@@ -336,11 +351,24 @@ ul {
   font-size: 70px;
   padding: 70px 0 0 0;
   text-align: center;
+  transform: translateX(-400px);
+  opacity: 0;
+  animation: anime-title 1s ease-in-out forwards;
+  animation-delay: 0.3s;
 }
 
 .about__text {
   color: var(--white-color);
   text-align: center;
+  transform: scale(0);
+  opacity: 0;
+  animation: about-text 1.5s ease-in-out forwards;
+}
+@keyframes about-text {
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .portfolio__container {

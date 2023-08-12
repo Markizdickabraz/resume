@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/273e14e338.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./slyles/style.css">
-    <link rel="stylesheet" href="./slyles/media.css">
+    <link rel="stylesheet" href="../slyles/style.css">
+    <link rel="stylesheet" href="../slyles/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,6 +32,11 @@
                     <li class="header__item"> <a href="./portfolio.html" class="header__link">Portfolio</a></li>
                 </ul>
             </div>
+            <label class="lang-change__label" for="lang"></label>
+            <select class="lang-change__select" id="lang" name="lang">
+                <option class="lang-change__option" value="en">en</option>
+                <option class="lang-change__option" value="ua">ua</option>
+            </select>
             <button type="button" class="nav__button menu-toggle js-open-menu" aria-expanded="false"
                 aria-controls="mobile-menu">
                 <i class="fa-solid fa-bars" style="color: #fafafa;"></i>
@@ -100,7 +105,8 @@
                         class="fa-brands fa-linkedin-in footer__icon"></i></a></li>
         </ul>
     </footer>
-    <script src="./js/mobileMenu.js"></script>
+    <script src="../js/mobileMenu.js"></script>
+    <script src="../js/changeLang.js"></script>
 </body>
 
 
