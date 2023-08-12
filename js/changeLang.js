@@ -6,7 +6,7 @@ document.getElementById('lang').addEventListener('change', function() {
         window.location.href = newURL;
     }
     if (selectedLanguage === 'ua') { 
-         const newURL = `/index-uk.html`;
+         const newURL = `/resume/index-uk.html`;   
          window.location.href = newURL;
         }
 });
