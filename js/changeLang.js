@@ -2,7 +2,7 @@ document.getElementById('lang').addEventListener('change', function() {
     const selectedLanguage = this.value;
 
     if (selectedLanguage === 'en') { 
-        const newURL = `/index.html`
+        const newURL = `/resume/index.html`
         window.location.href = newURL;
     }
     if (selectedLanguage === 'ua') { 

@@ -351,7 +351,7 @@ ul {
 .about__title {
   color: var(--white-color);
   font-size: 70px;
-  padding: 70px 0 0 0;
+  padding: 100px 0 0 0;
   text-align: center;
   transform: translateX(-400px);
   opacity: 0;
@@ -372,6 +372,7 @@ ul {
 }
 
 .about__text {
+  padding: 50px 0 0 0;
   color: var(--white-color);
   text-align: center;
 }
