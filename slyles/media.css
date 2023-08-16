@@ -138,7 +138,7 @@
   .portfolio__list {
     padding: 30px 0 0 0;
   }
-  .about__title{
+  .about__title {
     font-size: 60px;
     padding: 60px 0 0 0;
   }
@@ -234,9 +234,16 @@
   .portfolio__frame {
     max-width: 300px;
   }
-    .about__title{
+  .about__title {
     font-size: 40px;
     padding: 40px 0 0 0;
+  }
+  .about__text-container {
+    padding: 20px 0 0 0;
+    gap: 20px;
+  }
+  .about__text {
+    font-size: 12px;
   }
 }
 

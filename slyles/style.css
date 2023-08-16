@@ -153,6 +153,10 @@ ul {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  transform: translateY(-100px);
+  opacity: 0;
+  animation: anime-nav 1s ease-in-out forwards;
+  animation-delay: 0.2s;
 }
 
 .hero {
@@ -360,6 +364,10 @@ ul {
 }
 
 .about__text-container {
+  padding: 40px 0 0 0;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
   transform: scale(0);
   opacity: 0;
   animation: about-text 1.5s ease-in-out forwards;
@@ -372,7 +380,7 @@ ul {
 }
 
 .about__text {
-  padding: 50px 0 0 0;
+  /* padding: 50px 0 0 0; */
   color: var(--white-color);
   text-align: center;
 }
